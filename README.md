@@ -1,2 +1,9 @@
 # social-network
 group work
+team members:
+    1. Zamir
+    2. Jaisan
+    3. Ayana
+    4. Nazerka
+    5. Makpal
+    6. Takhmina
