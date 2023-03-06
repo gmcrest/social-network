@@ -1,0 +1,72 @@
+.post1 {
+    margin: 0 auto;
+    border: 0.6px solid rgba(3, 158, 219, 0.9);
+    padding: 8px 16px;
+    width: 650px;
+    height: 130px;
+  }
+  
+  .post1 input {
+    color: black;
+    margin: 15px 0;
+    padding: 8px 16px;
+    border: 0.3 solid rgba(121, 148, 184, 0.2);
+    width: 90%;
+    height: 40px;
+  }
+  
+  .post1 button {
+    margin: 0 auto;
+    padding: 8px 16px;
+    color: #fff;
+    background-color: #199de5;
+    font-size: 15px;
+    border: 0 solid white;
+  }
+  
+  .post2 {
+    width: 650px;
+    height: 430px;
+    border: 1px solid #199de5;
+    margin: 16px auto;
+    padding: 0.15px 16px;
+    text-align: start;
+  }
+  
+  .second-image {
+    border-radius: 15px;
+    margin: 15px 0 0;
+    width: 60px;
+  }
+  
+  .post2 h3 {
+    font-size: 20px;
+  }
+  
+  .post2 .rachel-text {
+    margin: 15px 0;
+  }
+  
+  .post2 .coding-image {
+    width: 300px;
+    height: 150px;
+  }
+  
+  .post2 .coding2-image {
+    width: 300px;
+    height: 150px;
+  }
+  
+  .post2 button {
+    margin: 0 auto;
+    padding: 8px 16px;
+    color: #fff;
+    background-color: #199de5;
+    font-size: 15px;
+    border: 0 solid white;
+  }
+  
+  h3 {
+    display: inline-block;
+  }
+  
