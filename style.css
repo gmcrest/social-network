@@ -1,75 +1,616 @@
-.post1 {
-    margin: 0 auto;
-    border: 0.6px solid rgba(3, 158, 219, 0.9);
-    padding: 8px 16px;
-    width: 650px;
-    height: 130px;
-  }
-  
-  .post1 input {
+/*Navigation Bar Styling*/
+
+.wrapper{
+    margin: 15px;
+    background-color: rgb(243, 236, 236);
+}
+
+.navbar {
+    background-color: rgb(94, 167, 240);
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.seytech {
+    background-color: rgb(78, 156, 234); 
+    border: none; 
+    color: white; 
+    padding: 20px 30px; 
+    font-size: 20px; 
+    cursor: pointer;
+}
+
+.seytech:hover {
     color: black;
-    margin: 15px 0;
-    padding: 8px 16px;
-    border: 0.3 solid rgba(121, 148, 184, 0.2);
-    width: 90%;
-    height: 40px;
-  }
-  
-  .post1 button {
-    margin: 0 auto;
-    padding: 8px 16px;
-    color: #fff;
-    background-color: #199de5;
-    font-size: 15px;
-    border: 0 solid white;
-  }
-  
-  .post2 {
-    width: 650px;
-    height: 430px;
-    border: 1px solid #199de5;
-    margin: 16px auto;
-    padding: 0.15px 16px;
-    text-align: start;
-  }
-  
-  .second-image {
-    border-radius: 15px;
-    margin: 15px 0 0;
-    width: 60px;
-  }
-  
-  .post2 h3 {
-    font-size: 20px;
-  }
-  
-  .post2 .rachel-text {
-    margin: 15px 0;
-  }
-  
-  .post2 .coding-image {
+    background-color: rgb(232, 193, 193);
+}
+
+.fa-solid {
+    padding-right: 10px;
+}
+
+.navbar-icon-1,
+.navbar-icon-2,
+.navbar-icon-3 {
+    background-color: rgb(94, 167, 240);
+    border: none; 
+    color: white; 
+    font-size: 20px; 
+    padding: 20px 35px; 
+    cursor: pointer;
+}
+
+.navbar-icon-1:hover,
+.navbar-icon-2:hover,
+.navbar-icon-3:hover {
+    color: black;
+    background-color: white;
+}
+
+
+/*Content Styling*/
+
+.content {
+    display: grid;
+    grid-template-columns: 25% 53% 22%;
+    grid-gap: 20px;
+}
+
+/*First Subcontent Styling*/
+
+.my-profile {
+    border: solid white;
+    border-radius: 5px;
+    height: 400px;
+    background-color: white;
+    margin-top: 30px;
+    margin-left: 20px;
+    box-shadow: 0 0 20px rgb(121, 119, 119);
+}
+
+h3 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.first-image {
+    width: 43%;
+    height: 33%;
+    overflow: hidden;
+    border-radius: 50%;
+    background-position: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+hr {
     width: 300px;
+    margin-top: 30px;
+}
+
+.personal-information > button {
+    width: 100%;
+    border: none;
+    background: none;
+    padding: 15px 20px;
+    text-align: left;
+    font-size: 16px;
+}
+
+/*First Subcontent Styling*/
+
+.menu-bar-and-pictures {
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    margin-top: 25px;
+    margin-left: 20px;
+    box-shadow: 0 0 20px rgb(121, 119, 119);
+}
+
+.menu-bar-and-pictures > button {
+    background-color:  rgb(94, 167, 240);
+    width: 100%;
+    text-align: left;
+    padding: 15px 270px 15px 15px;
+    border: none;
+    white-space: nowrap;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.menu-bar-and-pictures > button:hover {
+    color: black;
+    background-color: aliceblue;
+}
+
+
+.menu-bar-and-pictures h5 {
+    margin-left: 15px;
+}
+
+.pictures {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 30px 25px 10px 25px;
+}
+
+.pictures > img {
+    width: 43%;
+    margin-bottom: 1.1rem;
+}
+
+
+/*First Suncontent Styling*/
+
+
+.interests {
+    border: solid white;
+    border-radius: 5px;
     height: 150px;
-  }
-  
-  .post2 .coding2-image {
-    width: 300px;
-    height: 150px;
-  }
-  
-  .post2 button {
-    margin: 0 auto;
-    padding: 8px 16px;
-    color: #fff;
-    background-color: #199de5;
-    font-size: 15px;
-    border: 0 solid white;
-  }
-  
-  h3 {
-    display: inline-block;
-  }
-  /*Navigation Bar Styling*/
+    background-color: white;
+    margin-top: 25px;
+    margin-left: 20px;
+    box-shadow: 0 0 20px rgb(121, 119, 119);
+}
+
+.interests > button {
+    padding: 3px 12px 3px 12px;
+    margin: 2px 2px 2px 1px;
+    border: none;
+}
+
+.interests > h4 {
+    margin: 20px 4px 15px 20px;
+}
+
+.button1,
+.button2 {
+    color: white;
+    background-color: blue;
+}
+
+.button3,
+.button4,
+.button5,
+.button6,
+.button7 {
+    color: white;
+    background-color:  rgb(94, 167, 240);
+}
+
+
+.button8,
+.button9 {
+    color: black;
+    background-color: grey;
+}
+
+.button10 {
+    color: black;
+    background-color: rgb(243, 236, 236);;
+}
+
+.button11 {
+    color: black;
+    background-color: rgb(255, 255, 255);;
+}
+
+.interests > .button1 {
+    margin-left: 20px;
+}
+
+.interests > .button5 {
+    margin-left: 20px;
+}
+
+.interests > .button9 {
+    margin-left: 20px;
+}
+
+/*First Subcontent Styling*/
+
+.notification {
+    border: solid rgb(231, 213, 213);
+    border-radius: 5px;
+    height: 140px;
+    background-color: rgb(231, 213, 213);
+    position: relative;
+    margin-top: 30px;
+    margin-left: 20px;
+    box-shadow: 0 0 20px rgb(121, 119, 119);
+}
+
+.fa-sharp {
+    font-size: 35px;
+    border-top-right-radius: 5px;
+    color: rgb(56, 52, 52);
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.fa-sharp:hover {
+    color: white;
+    background-color: aliceblue;
+}
+
+.notification > h4 {
+    margin-left: 20px;
+}
+
+.notification > h5 {
+    margin-left: 20px;
+    line-height: 20px;
+}
+
+
+
+/*Second Subcontent Styling*/
+
+.post1 {
+    background-color: white;
+    border-radius: 5px;
+    box-sizing: border-box;
+    padding:10px;
+    padding-right: 35px;
+    margin-top: 30px;
+    box-shadow: 0 0 20px rgb(121, 119, 119);
+}
+
+#status {
+    width: 94.5%;
+    margin: 20px 20px;
+    padding:10px
+}
+
+.post1 > button {
+    color: white;
+    background-color: rgb(94, 167, 240);
+    padding: 10px 15px 10px 15px;
+    margin: 0 20px 10px 20px;
+    border-color: rgb(94, 167, 240);
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    color:white;
+    
+}
+
+.post1 > button:hover {
+   color: black;
+   background-color: gray;
+}
+
+/*Second Subcontent Styling*/
+
+.post2 {
+    border: solid white;
+    background-color: white;
+    border-radius: 5px;
+    margin-top: 20px;
+    box-shadow: 0 0 20px rgb(121, 119, 119);
+}
+
+.second-image {
+    width: 13%;
+    height: 120%;
+    overflow: hidden;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.second-line {
+    display: flex;
+    font-size: 14px;
+}
+
+.first-line {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 20px 30px 20px;
+    
+}
+
+.first-line p {
+    color:grey;
+    width: 200px;
+    text-align: right;
+}
+
+
+.post2 > hr {
+    width: 95%;
+}
+
+.rachel-text {
+    margin: 30px 50px 20px 20px;
+}
+
+.coding-image {
+    width: 45.5%;
+    height: 200px;
+    margin: 0 10px 15px 20px;
+}
+
+.coding2-image {
+    width: 45.5%;
+    height: 200px;
+    margin: 0 10px 15px 10px;
+}
+
+.post2 > button {
+    color: white;
+    background-color: rgb(94, 167, 240);
+    padding: 10px 15px 10px 15px;
+    margin: 0 2px 15px 20px;
+    border-color: rgb(94, 167, 240);
+    cursor: pointer;
+}
+
+.post2 > button:hover {
+    color: black;
+    background-color: gray;
+}
+
+/*Second Subcontent Styling*/
+
+.post3 {
+    border: solid white;
+    background-color: white;
+    border-radius: 5px;
+    margin-top: 20px;
+    box-shadow: 0 0 20px rgb(121, 119, 119);
+}
+
+.third-image {
+    width: 15%;
+    height: 120%;
+    overflow: hidden;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.post3 > hr {
+    width: 95%;
+}
+
+.aikol-text {
+    margin: 20px 50px 30px 20px;
+}
+
+
+.post3 > button {
+    color: white;
+    background-color: rgb(94, 167, 240);
+    padding: 10px 15px 10px 15px;
+    margin: 0 2px 20px 20px;
+    border-color: rgb(94, 167, 240);
+    cursor: pointer;
+}
+
+.post3 > button:hover {
+   color: black;
+   background-color: gray;
+}
+
+/*Second Suncontent Styling*/
+
+.post4 {
+    border: solid white;
+    background-color: white;
+    border-radius: 5px;
+    margin-top: 20px;
+    box-shadow: 0 0 20px rgb(121, 119, 119);
+}
+
+.fourth-image {
+    width: 15%;
+    height: 120%;
+    overflow: hidden;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.post4 > hr {
+    width: 95%;
+}
+
+.luan-text {
+    margin: 10px 50px 15px 20px;
+}
+
+.luan-text > a {
+    color: black;
+    text-decoration: underline;
+}
+
+.development-image {
+    width: 95%;
+    height: 300px;
+    margin: 0 10px 10px 20px;
+}
+
+
+.post4 > button {
+    color: white;
+    background-color: rgb(94, 167, 240);
+    padding: 10px 15px 10px 15px;
+    margin: 0 2px 20px 20px;
+    border-color: rgb(94, 167, 240);
+    cursor: pointer;
+}
+
+.post4 > button:hover {
+  color: black;
+  background-color: gray;
+}
+
+
+/*Third Subcontent Styling*/
+
+.upcoming-events {
+    border: solid white;
+    background-color: white;
+    text-align: center;
+    border-radius: 5px;
+    margin-top: 30px;
+    margin-right: 60px;
+    box-shadow: 0 0 20px rgb(121, 119, 119);
+}
+
+.react-image {
+    width: 82%;
+    margin: 0 20px 0 20px;
+}
+
+.upcoming-events > button {
+    padding: 10px 80px;
+    margin-bottom: 15px;
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+.upcoming-events > button:hover {
+    color: white;
+    background-color: grey;
+}
+
+.upcoming-events > button a {
+    color: black;
+}
+
+/*Third Subcontent Styling*/
+
+.friend-request {
+    border: solid white;
+    background-color: white;
+    text-align: center;
+    border-radius: 5px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 60px;
+    box-shadow: 0 0 40px rgb(121, 119, 119);
+}
+
+.dog-image {
+    width: 60%;
+}
+
+.friend-request_buttons {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    width:80%;
+}
+
+.friend-request_buttons button {
+    width: 100%;
+    padding:10px;
+    color:white;
+    border:none;
+}
+
+.friend-request_buttons button:hover {
+    background-color: grey;
+    cursor: pointer;
+}
+
+.accept_btn {
+    background-color: rgb(84, 149, 84);
+}
+
+.decline_btn {
+    background-color: salmon;
+}
+
+
+/*Third Suncontent Styling*/
+
+.ads {
+    border: solid white;
+    background-color: white;
+    border-radius: 5px;
+    height: 120px;
+    margin-top: 20px;
+    margin-right: 60px;
+    position: relative;
+    box-shadow: 0 0 40px rgb(121, 119, 119);
+}
+
+.ads > h5 {
+   position: absolute;
+   left: 110px;
+   bottom: 30px;
+}
+
+
+/*Third Suncontent Styling*/
+
+.insect {
+    border: solid white;
+    background-color: white;
+    text-align: center;
+    border-radius: 5px;
+    height: 180px;
+    margin-top: 20px;
+    margin-right: 60px;
+    position: relative;
+    box-shadow: 0 0 40px rgb(121, 119, 119);
+}
+
+.fa-bug {
+    position: absolute;
+    top: 75px;
+    right: 95px;
+    font-size: xx-large;
+}
+
+
+
+/*Footer Styling*/
+
+.footer {
+    display: block;
+    height: 140px;
+    margin-top: 60px;
+}
+
+.footer-text {
+    color: white;
+    background-color: rgb(94, 167, 240);
+    padding: 8px 0;
+}
+
+.footer-text2 {
+    color: white;
+    background-color: rgb(38, 85, 136);
+    padding: 1px 0;
+}
+
+.footer-text > h4 {
+    padding-left: 20px;
+}
+
+.footer-text2 > h4 {
+    padding-left: 20px;
+}
+
+.footer-text2 > h4 a {
+    text-decoration: underline;
+}
+/*Navigation Bar Styling*/
 
 .wrapper{
     margin: 15px;
